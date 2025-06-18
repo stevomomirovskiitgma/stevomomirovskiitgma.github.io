@@ -1,0 +1,121 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>TREADS of Future</title>
+  <style>
+    * {
+      box-sizing: border-box;
+    }
+    body, html {
+      margin: 0;
+      padding: 0;
+      height: 100%;
+      font-family: 'Segoe UI', sans-serif;
+      color: white;
+    }
+    .hero {
+      background: url('horizon_init2.png') no-repeat center center;
+      background-size: cover;
+      height: 100vh;
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      padding-left: 5%;
+    }
+    .hero h1 {
+      font-size: 3.5em;
+      font-weight: bold;
+      margin: 0;
+    }
+    .hero h2 {
+      font-size: 1.5em;
+      margin: 10px 0 20px 0;
+      font-weight: normal;
+    }
+    .hero p {
+      max-width: 600px;
+      font-size: 1em;
+      line-height: 1.6em;
+    }
+	.credit {
+	  position: absolute;
+	  bottom: 20px;
+	  right: 30px;
+	  font-size: 0.9em;
+	  color: #444444; /* soft gray */
+	}
+	.main-header {
+	  position: absolute;
+	  top: 0;
+	  left: 0;
+	  width: 100%;
+	  padding: 20px 40px;
+	  display: flex;
+	  justify-content: space-between;
+	  align-items: center;
+	  background: rgba(0, 0, 0, 0.4);
+	}
+	
+	.logo {
+	  font-size: 1.4em;
+	  font-weight: bold;
+	  color: white;
+	}
+	
+	.main-nav a {
+	  margin-left: 25px;
+	  color: white;
+	  text-decoration: none;
+	  font-weight: 500;
+	}
+	
+	.main-nav a:hover {
+	  text-decoration: underline;
+	}    
+	.hero-text {
+	  position: absolute;
+	  top: 100px;         /* adjust vertically */
+	  left: 40px;         /* adjust horizontally */
+	  background-color: rgba(255, 255, 255, 0.4);
+	  padding: 30px;
+	  max-width: 700px;
+	  border-radius: 10px;
+	  color: #222222;
+	}	
+	.hero-text h1, .hero-text h2, .hero-text p {
+	  color: #222222; /* softer black/dark gray */
+	}
+	.site-footer {
+	  position: absolute;
+	  bottom: 10px;
+	  left: 20px;
+	  font-size: 0.75em;
+	  color: #444444; /* soft gray */
+	}
+  </style>
+</head>
+<body>
+
+  <div class="hero">
+	<header class="main-header">
+	  <div class="logo">Threads of Future</div>
+	  <nav class="main-nav">
+		<a href="about.html">About</a>
+		<a href="projects.html">Projects</a>
+		<a href="contact.html">Contact</a>
+	  </nav>
+	</header>  
+  </div>
+
+  <div class="credit">
+    iProject®<br>
+    Credit: Olgica D. Momirovska
+  </div>
+
+  <footer class="site-footer">
+    &copy; 2025 threadsoffuture.
+  </footer>
+
+</body>
+</html>
